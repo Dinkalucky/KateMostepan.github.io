@@ -1,4 +1,4 @@
-<script>
+
 function showText (el) {
 	if(el.previousElementSibling.clientHeight === 100) {
 		el.previousElementSibling.style.height = "100%";
@@ -8,4 +8,3 @@ function showText (el) {
 		el.innerHTML = "Більше...";
 	}
 }
-</script>
